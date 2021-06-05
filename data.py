@@ -1,6 +1,6 @@
 # emilecb - 4/6/2020 - data.py
 
-# native assets
+# NATIVE ASSETS
 from util import *
 
 # constant declarations
@@ -83,7 +83,7 @@ def main():
                                             cfs.write(form.format(round(line[0] - 0.05, rnd)) + ',' + \
                                                       form.format(round(pmem, rnd)) + '\n')
                                             cvfs.write(form.format(round(line[0] - 0.05, rnd)) + ',' + \
-                                                      form.format(round((pmem-pre)/dt, rnd)) + '\n')
+                                                       form.format(round((pmem-pre)/dt, rnd)) + '\n')
 
 
                                         # RAW
@@ -108,7 +108,7 @@ def main():
                                                           form.format(round(line[1], rnd)) + '\n')
                                                 # velocity styling
                                                 cvfs.write(form.format(round(line[0], rnd)) + ',' + \
-                                                          form.format(round((line[1]-pmem)/dt, rnd)) + '\n')
+                                                           form.format(round((line[1]-pmem)/dt, rnd)) + '\n')
 
                                         # simple cutoff detection
                                         # detection run after to allow at most one
