@@ -9,15 +9,6 @@ cleaning subroutines to make it "look better" (more so when it is graphed). And 
 stylized data is the styled data with a set "cutoff point", basically for the 20cm tests
 it will ignore all measured values above 20cm.
 
-
-## Basic Processes
-The actual code is a little more sophisticated than that. Having short term recursive
-memory, release detection, fall detection, compensation for human interference and
-reaction times, as well compensation as collision interference. Not sure if any of that
-is important but might be nice to put into the research investigations to show the
-steps taken to reduce possible sources of uncertainty.
-
-
 ## How to Use
 The time data table: [brief.csv](brief.csv), and velocity data table:
 [vbrief.csv](vbrief.csv) will most likely be the most useful files here for you
